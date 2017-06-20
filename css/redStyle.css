@@ -1,0 +1,60 @@
+
+
+
+body{
+	background: #e52929;
+}
+
+
+table{
+	border-spacing: 0;
+	margin: 50px auto 0;
+}
+
+	th{
+		color: #efe1e0;
+		text-align: center;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 300%;
+	}
+
+	td{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 300%;
+		color: #e52929;
+		border: 10px solid #e52929;
+		height: 120px;
+		width: 120px;
+		text-align: center;
+		background: #e8c1c1;
+		border-radius: 20px;
+		transition: background .3s linear 0s;
+		cursor: pointer;
+	}
+
+	td:hover{
+		background: #efe1e0;
+	}
+
+	.taken:hover{
+		background: #937979;
+	}
+
+	.message{
+		font-size: 200%;
+	}
+
+	.score{
+		font-size: 150%;
+	}
+
+	.restart{
+		font-size: 150%;
+		height: 40px;
+	}
+
+
+h1{
+	color: #efe1e0;
+	margin: auto;
+}
