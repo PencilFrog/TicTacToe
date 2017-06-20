@@ -1,0 +1,60 @@
+
+
+
+body{
+	background: #50D9D2;
+}
+
+
+table{
+	border-spacing: 0;
+	margin: 50px auto 0;
+}
+
+	th{
+		color: #E1F0EF;
+		text-align: center;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 300%;
+	}
+
+	td{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 300%;
+		color: #50D9D2;
+		border: 10px solid #50D9D2;
+		height: 120px;
+		width: 120px;
+		text-align: center;
+		background: #C1E8E6;
+		border-radius: 20px;
+		transition: background .3s linear 0s;
+		cursor: pointer;
+	}
+
+	td:hover{
+		background: #E1F0EF;
+	}
+
+	.taken:hover{
+		background: #E6C5CC;
+	}
+
+	.message{
+		font-size: 200%;
+	}
+
+	.score{
+		font-size: 150%;
+	}
+
+	.restart{
+		font-size: 150%;
+		height: 40px;
+	}
+
+
+h1{
+	color: #E1F0EF;
+	margin: auto;
+}
